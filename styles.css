@@ -17,6 +17,7 @@ body {
     margin: 0px;
     font-family: 'Roboto' sans-serif;
     background-color: #F2F1E8;
+    /* Need to set and id for each background*/
 }
 
 .header {
@@ -24,8 +25,6 @@ body {
 }
 
 header {
-    /* display: flex;
-    justify-content: center; */
     position: fixed;
     top: 0;
     margin: 0px;
@@ -34,7 +33,7 @@ header {
     height: 100px;
 }
 
-h1 {
+#main_header {
     margin-top: 100px;
     font-family: 'Merriweather', serif;
     font-weight: normal;
@@ -43,19 +42,27 @@ h1 {
     padding-top: 50px;
 }
 
+nav {
+    display: flex;
+}
+
 .nav-img {
     display: flex;
     justify-content: flex-start;
+    width: 5%;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .nav_item {
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
-nav > a {
+.nav_item > a {
     color: black;
-    padding: 0px 30px 0px 30px;
+    padding: 35px 40px 0px 40px;
     font-variant-caps: all-small-caps;
     font-size: 1.5rem;
 }
@@ -77,4 +84,31 @@ footer {
 
 footer > p {
     color: white;
+}
+
+#form {
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
+#nL_header {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#nL_p {
+    font-weight: bold;
+}
+
+nL_body {
+    /* background-image: url("images/background-2.jpg"); */
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
 }
