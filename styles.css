@@ -49,7 +49,7 @@ nav {
 .nav-img {
     display: flex;
     justify-content: flex-start;
-    width: 5%;
+    width: 5px;
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -57,14 +57,14 @@ nav {
 .nav_item {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 1655px;
 }
 
 .nav_item > a {
     color: black;
     padding: 35px 40px 0px 40px;
     font-variant-caps: all-small-caps;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 #logo-blk {
@@ -87,11 +87,14 @@ footer > p {
 }
 
 #form {
-    margin-top: 100px;
+    margin-top: 175px;
     font-family: 'Merriweather', serif;
     text-align: center;
-    padding-top: 50px;
+    padding: 25px;
     font-size: 1.5rem;
+    width: 700px;
+    height: 350px;
+    background-color: white;
 }
 
 #nL_header {
@@ -99,16 +102,48 @@ footer > p {
     font-weight: normal;
 }
 
+#input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #nL_p {
     font-weight: bold;
 }
 
-nL_body {
-    /* background-image: url("images/background-2.jpg"); */
+#nL_body {
+    background-image: url("images/background-2.jpg");
 }
 
 input {
-    width: 600px;
+    width: 700px;
     height: 50px;
     font-size: 25px;
+    border: 0px;
+    border-bottom: 2px solid #968772;
+    margin-bottom: 20px;
+}
+
+#nL_main {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #968772;
+    color: #F2F1E8;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+
+botton:hover {
+    color: #FFFFFF;
+    background-color: #967343;
+}
+
+#nL_nav {
+    transform: translateX(-7px);
 }
