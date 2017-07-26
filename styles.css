@@ -58,7 +58,7 @@ nav {
 }
 
 .nav_item > a {
-    color: black;
+    color: #2B2F26;
     padding: 25px 40px 0px 40px;
     font-variant-caps: all-small-caps;
     font-size: 1.75rem;
@@ -73,6 +73,14 @@ nav {
     transform: translateX(-7px);
 }
 
+a:hover {
+    color: #CD5D67;
+}
+
+a:active {
+    color: #968772
+}
+
 
 /*Navigation*/
 
@@ -80,7 +88,7 @@ nav {
 /*Footer*/
 
 footer {
-    background-color: #313131;
+    background-color: #2C322A;
     padding: 20px;
     width: 1625px;
     height: 50px;
@@ -129,6 +137,7 @@ footer > p {
 
 #nL_body {
     background-image: url("images/background-2.jpg");
+    background-size: cover;
 }
 
 input {
@@ -140,21 +149,34 @@ input {
     margin-bottom: 20px;
 }
 
+input:focus {
+    border: 0px;
+    border-bottom: 2px solid #967343;
+    outline: none;
+}
+
 #nL_main {
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 button {
     background-color: #968772;
     color: #F2F1E8;
-    padding: 20px 40px 20px 40px;
+    width: 120px;
+    height: 60px;
+    /* padding: 20px 40px 20px 40px; */
     font-size: 20px;
 }
 
-botton:hover {
+button:hover {
     color: #FFFFFF;
     background-color: #967343;
+}
+
+#bk-gd {
+    background-color: #F2F1E8;
 }
 
 
@@ -185,6 +207,7 @@ botton:hover {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    max-width: ;
 }
 
 .top_row {
@@ -267,11 +290,13 @@ botton:hover {
 }
 
 .main-list >p {
-    color: white;
-    font-size: 25px;
+    color: #D9CFB1;
+    font-size: 22px;
     box-sizing: border-box;
-    background-color: #313131;
-    padding: px;
+    background-color: #2C322A;
+    padding: 15px;
+    position: relative;
+    left: -5px
 }
 
 
